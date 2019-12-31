@@ -1,4 +1,4 @@
-FROM rhscl/httpd-24-rhel7
+FROM registry.access.redhat.com/rhscl/httpd-24-rhel7
 LABEL maintainer="Chris <c@crccheck.com>"
 
 ADD index.html /www/index.html
